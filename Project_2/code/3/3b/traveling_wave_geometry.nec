@@ -1,0 +1,12 @@
+CM Traveling Wave Horizontal Antenna (Beverage Type)
+CM Source at Top (junction), Load at Bottom (ground connection)
+CE
+GW  1  101  -62.5000  0.0000  6.2500  62.5000  0.0000  6.2500  0.0625
+GW  2  5  62.5000  0.0000  6.2500  62.5000  0.0000  0.0000  0.0156
+GW  3  5  -62.5000  0.0000  6.2500  -62.5000  0.0000  0.0000  0.0156
+GE  1
+GN  1  0  0  0  0  0  0  0
+LD  0  2  5  5  317.5  0  0
+EX  0  3  1  0  1.0  0.0
+FR  0  1  0  0  12.00  0
+EN
