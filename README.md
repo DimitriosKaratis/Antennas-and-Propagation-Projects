@@ -38,19 +38,3 @@ Focused on the simulation of complex wire antennas using the Method of Moments (
 * Identified optimal matching regions for parasitic arrays ($|\Gamma| < 0.3$) for specific $d/\lambda$ and $h/\lambda$ ratios.
 * Demonstrated how termination resistance $R_L$ eliminates standing waves in traveling wave antennas, achieving broadband performance.
 * Optimized side lobe reduction through non-uniform element spacing and excitation.
-
----
-
-## 📂 Repository Structure
-```text
-├── Phase_A_MATLAB/
-│   ├── radiation_patterns.m    # 2D/3D radiation plots
-│   ├── genetic_optimizer.m     # SLL minimization script
-│   └── mutual_impedance.m      # Complex impedance calculations
-├── Phase_B_NEC/
-│   ├── discone_antenna.nec     # NEC input file for discone
-│   ├── folded_dipole.nec       # NEC input file for folded dipole
-│   └── traveling_wave.nec      # NEC input file for long-wire antenna
-└── Reports/
-    ├── Part_A_Analysis.pdf     # Detailed theoretical and MATLAB report
-    └── Part_B_Simulation.pdf   # NEC results and performance evaluation
